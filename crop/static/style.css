@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../static/crop-pro.jpg"); /* Replace with your crop-themed image */
+    background-size: cover;      
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+}
+h1 {      
+    text-align: center;  
+    color: #ffffff;  /* White text on a green background */   
+    background-color: rgba(0, 128, 0, 0.7); /* Semi-transparent green background for the header */   
+    padding: 20px;   
+    border-radius: 10px;   
+}
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #008000; /* Green color */
+}
+input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+    
+
+button {
+    background-color: #008000; /* Green color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #006400; /* Darker green on hover */
+}
+
+.class-label {
+    display: inline-block; /* Change to inline-block to make it inline with the button */
+    font-weight: bold;
+    color: #008000;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 10px;
+    width:60%;
+}
